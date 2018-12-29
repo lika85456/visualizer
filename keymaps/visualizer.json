@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "visualizer:toggle"
+    "ctrl-alt-o": "visualizer:visualize"
   }
 }

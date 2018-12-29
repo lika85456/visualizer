@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  font-family: poppins,sans-serif;
+}
+
+
+ body{
+  background-color:#000;
+}
+
+.object{
+  color:white;
+  position:absolute;
+  width:400px;
+  border:2px solid #FF9900;
+  background-color:#333;
+}
+
+.object-part-container{
+  position:relative;
+  margin:12px;
+  background-color:#444;
+  border:1px solid #860;
+  padding:5px;
+}
+
+.object-type-container{
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  color:#90999F;
+}
+
+.object-type{
+  display:inline-block;
+}
+
+.object-name{
+  text-align:center;
+  margin:5px;
+  font-weight:800;
+}
+
+.object-tooltip-container{
+  position:absolute;
+  right:5px;
+  top:0;
+}
+
+.object-tooltip{
+  background-color:#333;
+  width:25px;
+  height:25px;
+  margin:5px;
+}
+
+.object-tooltip-delete{
+  color:red;
+  box-sizing:border-box;
+  padding-left:7.5px;
+  position:relative;
+  cursor:pointer;
+  font-weight:800;
+  line-height:100%;
+  padding-top:4px;
+  border:1px solid #333;
+}
+
+.object-tooltip-delete:hover{
+  border:1px solid red;
+}
+
+.object-tooltip-test{
+  color:#999;
+  box-sizing:border-box;
+  padding-left:7.5px;
+  position:relative;
+  cursor:pointer;
+  font-weight:800;
+  line-height:100%;
+  padding-top:4px;
+  border:1px solid #333;
+}
+
+
+
+.object-comment-extension{
+  border-top:2px solid #CCC;
+  min-height:25px;
+  margin:5px;
+}
+
+.object-comment-button{
+  background-color:black;
+}
+
+.object-comment-container{
+  display:none;
+  background-color:#555;
+  padding:5px;
+  border-radius:8px;
+  position:relative;
+  margin-left:30px;
+  margin-top:-20px;
+  overflow-wrap:break-word;
+}
+
+.object-property{
+  position:relative;
+  width:100%;
+  height:30px;
+  background-color:#555;
+  padding:3px;
+  margin-top:4px;
+  box-sizing:border-box;
+}
+
+.object-property-accessor{
+  position:relative;
+  width:25px;
+  height:25px;
+  font-size:23px;
+  font-weight:800;
+  background-color:#333;
+  line-height:25px;
+  text-align:center;
+  float:left;
+}
+
+.object-property-name{
+  position:relative;
+  display:inline-block;
+  height:25px;
+  float:left;
+  font-weight:800;
+  padding-left:5px;
+}
+
+.object-property-type{
+  position:relative;
+  float:right;
+  margin-right:8px;
+}
+
+.object-property-tooltip-container{
+  float:right;
+  position:relative;
+}
+
+.object-property-tooltip{
+  float:left;
+  position:relative;
+  background-color:#333;
+  margin-right:5px;
+  width:25px;
+  height:25px;
+  font-weight:800;
+  text-align:center;
+  cursor:pointer;
+  border:1px solid #333;
+}
+
+.property-tooltip-delete{
+  color:#FF0000;
+}
+
+.property-tooltip-test{
+  color:#999;
+}
+
+.property-tooltip-comment:hover{
+  border:1px solid white;
+}
+
+.property-tooltip-delete:hover{
+  border:1px solid red;
+}
+
+.property-tooltip-test:hover{
+  border:1px solid #00FF00;
+}

@@ -15,8 +15,8 @@
           "label": "visualizer",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "visualizer:toggle"
+              "label": "Open project visualiser",
+              "command": "visualizer:Open project visualizer"
             }
           ]
         }
